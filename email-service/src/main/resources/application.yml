@@ -1,0 +1,43 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:eureka@localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+# Apache kafka consumer
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: email
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              package: "*"
+            type:
+              mapping: event:org.example.emailservice.dto.EmailMessageKafkaDto
+
+      topic:
+        name: email_topics
+
+  mail:
+    host: smtp.gmail.com
+    password: rnsmddbxngmybmat
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: danghoangtest1@gmail.com
+  application:
+    name: emailService
