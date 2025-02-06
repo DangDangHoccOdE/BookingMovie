@@ -1,0 +1,3 @@
+export const ADD_MOVIE_TO_STATE = "ADD_MOVIE_TO_STATE";
+export const CLEAN_STATE = "CLEAN_STATE";
+
