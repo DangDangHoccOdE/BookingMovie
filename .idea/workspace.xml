@@ -5,35 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddd0a86-f52c-48d8-b761-5ae00e5be15e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/actorService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/categoryService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/cityService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/commentService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/directorService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/movieImageService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/movieService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/paymentService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/saloonTimeService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/userService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/actions/movieActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/customFormItems/CustomCheckBox.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/customFormItems/CustomSelect.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/customFormItems/CustomTextArea.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/customFormItems/CustomTextInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/dateConvertForTicket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/dateConverter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/utilPages/CustomCheckBox.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/utilPages/ProtectedRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/utilPages/ScrollToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/org/microservice/userservice/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/org/microservice/userservice/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/LoggedIn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/LoggedOut.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MainPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/actions/userActions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducer/movieReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducer/userReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/442c1f00-8f8b-449f-b518-40621e1564e7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/movieActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/movieActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +35,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MigrationScriptOptions">
     <option name="ignoreImplicitObjects" value="true" />
     <option name="ignoreSourceCode" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2seBokYxfIvlFIjpNqfIXrbvbvA" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,7 +92,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -163,7 +155,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml.mongo-express: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -203,8 +197,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -217,6 +211,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738806339718</updated>
       <workItem from="1738806344873" duration="20959000" />
+      <workItem from="1738897128615" duration="4339000" />
+      <workItem from="1739282923535" duration="9835000" />
     </task>
     <servers />
   </component>
