@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./rootReducer";
 
-export const store = configureStore({
+export const stores = configureStore({
     reducer: rootReducer,
     devTools: true, // Mặc định đã bật Redux DevTools
 });

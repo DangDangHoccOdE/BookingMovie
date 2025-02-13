@@ -1,5 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
+import {removeUserFromState} from "../store/actions/userActions";
 
 export default function LoggedIn() {
     const dispatch = useDispatch();
@@ -10,7 +11,7 @@ export default function LoggedIn() {
             <ul className='navbar-nav ms-auto py-4 py-lg-0'>
                 <li className='nav-item'>
                     <a className='nav-link' href="#!"
-                        onClick={() => dispatch(removeUserfromState())}>
+                        onClick={() => dispatch(removeUserFromState())}>
                         Đăng xuất
                     </a>
                 </li>

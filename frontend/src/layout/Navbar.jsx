@@ -26,7 +26,7 @@ export default function Navbar(){
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
                 <div className="container px-5">
-                    <Link to={"/"} style={{textDecoration: none}}>
+                    <Link to={"/"} style={{textDecoration: 'none'}}>
                         <a className="navbar-brand">MovieBooking</a>
                     </Link>
                     <button className="navbar-toggle" tyle="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
