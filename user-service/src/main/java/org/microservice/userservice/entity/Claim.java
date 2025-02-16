@@ -1,15 +1,19 @@
 package org.microservice.userservice.entity;
 
-import lombok.Builder;
-import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
+import lombok.*;
 
-@Data
-@Document(collection = "claim")
+@Entity
+@Table(name = "claim")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class Claim {
     @Id
     private String claimId;
+
+    @Column(nullable = false, unique = true)
     private String claimName;
 }

@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService {
                 .fullName(userRegisterRequestDto.getCustomerName())
                 .claim(claim)
                 .build();
-        userDao.insert(user);
+        userDao.save(user);
     }
 
     @Override

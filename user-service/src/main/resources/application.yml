@@ -4,17 +4,19 @@ server:
 spring:
   application:
     name: userService
-  # MongoDB
-  data:
-    mongodb:
-      uri: mongodb://rootuser:rootpass@localhost:27017/user_db?authSource=admin
-#      authentication-database: admin
-#      username: rootuser
-#      password: rootpass
-#      database: user_db
-#      port: 27017
-#      host: localhost
-#      auto-index-creation: true
+    datasource:
+    username: 'postgres'
+    url: jdbc:postgresql://localhost:5433/user-service
+    password: Dang972004@
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
 
 eureka:
   client:

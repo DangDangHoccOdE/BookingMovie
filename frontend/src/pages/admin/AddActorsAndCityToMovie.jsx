@@ -1,8 +1,8 @@
 import {useNavigate, useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
-import {CityService} from "../services/cityService";
-import {ActorService} from "../services/actorService";
-import {MovieImageService} from "../services/movieImageService";
+import {CityService} from "../../services/cityService";
+import {ActorService} from "../../services/actorService";
+import {MovieImageService} from "../../services/movieImageService";
 import {useEffect, useState} from "react";
 import {Formik} from "formik";
 

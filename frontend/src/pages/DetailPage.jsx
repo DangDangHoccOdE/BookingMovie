@@ -85,6 +85,8 @@ export default function DetailPage() {
             movieDay: selectedDay,
             movieTime: movieTime
         }
+        dispatch(addMovieToState(movieDto));
+        navigate("buyTicket")
     }
 
     function sendCommentText(){
