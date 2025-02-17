@@ -27,22 +27,22 @@ export default function Navbar(){
             <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
                 <div className="container px-5">
                     <Link to={"/"} style={{textDecoration: 'none'}}>
-                        <a className="navbar-brand">MovieBooking</a>
+                        MovieBooking
                     </Link>
-                    <button className="navbar-toggle" tyle="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggle-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ms-auto align-items-center">
-                            {useFromRedux?.role[0] === "ADMIN"} ?
-                                <li className="nav-item">
+                            {useFromRedux?.role[0] === "ADMIN" ?
+                                (<li className="nav-item">
                                     <a className="nav-link" href="#!" onClick={() => navigate("/addMovie")}>
                                         Thêm mới phim
                                     </a>
-                                </li> : null
+                                </li>) : null}
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#!" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-control="offCanvasTop">
+                                <a className="nav-link" href="#!" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offCanvasTop">
                                     Phim
                                 </a>
                             </li>

@@ -39,7 +39,7 @@ export default function AddMoviePage(){
 
     }
 
-    const validationSchema= yub.object({
+    const validationSchema= yup.object({
 
     })
 

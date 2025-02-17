@@ -5,6 +5,7 @@ import {ActorService} from "../../services/actorService";
 import {MovieImageService} from "../../services/movieImageService";
 import {useEffect, useState} from "react";
 import {Formik} from "formik";
+import * as yup from "yup";
 
 export default function AddActorsAndCityToMovie(){
     let {movieId} = useParams();
@@ -44,7 +45,7 @@ export default function AddActorsAndCityToMovie(){
 
     }
 
-    const validationSchema = yub.object({
+    const validationSchema = yup.object({
 
     })
 
@@ -61,7 +62,7 @@ export default function AddActorsAndCityToMovie(){
                 <Formik initialValues={initValues} validationSchema={validationSchema} onSubmit={(values) => {
                     let actorNameList;
 
-                    if(!values.actorName && values.actorName.trim() != ""){
+                    if(!values.actorName && values.actorName.trim() !== ""){
                         if(values.actors !== undefined){
                             actorNameList = [...values.actors, ...values.actorName.split(', ')]
                         }else{

@@ -34,10 +34,10 @@ export default function BuyTicketPage(){
             setChairNumberList([...chairNumberList,elementId]);
             setChairNumber(chairNumber - 1);
         }else{
-            if(item.className == 'taken'){
+            if(item.className === 'taken'){
                 item.removeAttribute('style');
                 item.className = 'empty';
-                let list = chairNumberList.filter(item => item != elementId);
+                let list = chairNumberList.filter(item => item !== elementId);
                 setChairNumberList(list);
                 setChairNumber(chairNumber + 1);
             }
@@ -50,7 +50,7 @@ export default function BuyTicketPage(){
                 <div className='ticket-page-bg-img col-sm-12 col-md-4 text-light'>
                     <div className='mt-5 pt-5'>
                         <h3 className='mt-2'>{movieState?.movieName}</h3>
-                        <img className='img-thumbnail w-50 mx-auto mt-5' src={movieState?.imageUrl}/>
+                        <img className='img-thumbnail w-50 mx-auto mt-5' src={movieState?.imageUrl} alt={movieState?.movieName || "Movie poster"}/>
                         <h5 className='pt-5'><i className='fa-solid fa-location-dot'></i>{movieState?.saloonName} </h5>
                         <h5 className='py-2'><i className='fa-solid fa-calendar-days'></i>{movieState?.movieDay} </h5>
                         <h5><i className='fa-regular fa-clock'></i>{movieState?.movieTime}</h5>
@@ -377,7 +377,7 @@ export default function BuyTicketPage(){
                                 </h2>
 
                                 <div id='panelsStayOpen-collapseThree' className='accordion-collapse collapse' aria-labelledby='panelsStayOpen-headingThree'>
-                                    {ticketItem == 'paySection' ?
+                                    {ticketItem === 'paySection' ?
                                     <div className='accordion-body'>
                                         <Formik initialValues={{}} onSubmit={(values) => {
                                             let result = ""
@@ -410,26 +410,26 @@ export default function BuyTicketPage(){
                                                 </div>
 
                                                 <div className='col-sm-12 col-md-6 mb-3'>
-                                                    <div class="form-floating mb-3">
+                                                    <div className="form-floating mb-3">
                                                         <Cleave class="form-control" id="floatingCardNumber" placeholder='Số thẻ tín dụng' required
                                                                 options={{creditCard:true}} />
                                                         <label for="floatingCardNumber">Số thẻ tín dụng</label>
                                                     </div>
                                                     <div className='row'>
                                                         <div className='col-sm-6'>
-                                                            <div class="form-floating mb-3">
+                                                            <div className="form-floating mb-3">
                                                                 <Cleave type="text" class="form-control" id="floatingCardLastDate" placeholder='Thời hạn' required
                                                                         options={{date:true, datePattern: ['m','y']}} />
-                                                                <label for="floatingCardLastDate">Thời hạn</label>
+                                                                <label form="floatingCardLastDate">Thời hạn</label>
                                                             </div>
                                                         </div>
                                                         <div className='col-sm-6'>
-                                                            <div class="form-floating mb-3">
-                                                                <input type="text" class="form-control"  maxlength="3" size="3"  id="floatingSecurityNumber" placeholder="CCV" required/>
-                                                                <label for="floatingSecurityNumber">CCV</label>
+                                                            <div className="form-floating mb-3">
+                                                                <input type="text" className="form-control"  maxLength="3" size="3"  id="floatingSecurityNumber" placeholder="CCV" required/>
+                                                                <label form="floatingSecurityNumber">CCV</label>
                                                             </div>
                                                         </div>
-                                                        <p className='text-start'> <input class="form-check-input me-3" type="checkbox" value="" aria-label="Checkbox for following text input" required/>Điều kiện thông tin sơ bộ và
+                                                        <p className='text-start'> <input className="form-check-input me-3" type="checkbox" value="" aria-label="Checkbox for following text input" required/>Điều kiện thông tin sơ bộ và
                                                             Tôi đã đọc và chấp nhận Thỏa thuận bán hàng từ xa.
                                                         </p>
                                                     </div>

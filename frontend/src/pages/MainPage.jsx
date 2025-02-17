@@ -27,7 +27,7 @@ export default function MainPage(){
     }, []);
     return (
         <div>
-            <body id="page-top">
+            <div id="page-top">
             <section>
                 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
                     <div className="carousel-indicators">
@@ -134,7 +134,7 @@ export default function MainPage(){
                     ))}
                 </Swiper>
             </section>
-            </body>
+            </div>
         </div>
     )
 }

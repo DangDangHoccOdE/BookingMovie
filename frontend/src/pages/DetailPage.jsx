@@ -7,7 +7,7 @@ import {SaloonTimeService} from "../services/saloonTimeService";
 import {CommentService} from "../services/commentService";
 import {use, useEffect, useState} from "react";
 import dateConverter from "../utils/dateConverter";
-import {cleanState} from "../store/actions/movieActions";
+import {addMovieToState, cleanState} from "../store/actions/movieActions";
 import {toast, ToastContainer} from "react-toastify";
 import dateConvertForTicket from "../utils/dateConvertForTicket";
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -43,14 +43,14 @@ export default function DetailPage() {
 
     useEffect(() => {
         getNewVisionMovie(movieId);
-    }, []);
+    }, [movieId]);
 
     function getNewVisionMovie(movieId){
         movieService.getMovieById(movieId).then(result => setMovie(result.data))
         actorService.getActorsByMovieId(movieId).then(result => setActors(result.data))
         cityService.getCitiesByMovieId(movieId).then(result => setCinemaSaloons(result.data))
         movieService.getAllDisplayingMovies().then(result => {
-            const films = result.data.filter(m => m.movieId != movieId);
+            const films = result.data.filter(m => m.movieId !== movieId);
             setOtherMovies(films);
         })
         commentService.getCountOfComments(movieId).then(result => setCountOfComments(result.data))
@@ -132,7 +132,7 @@ export default function DetailPage() {
 
         commentService.deleteComment(deleteCommentDto).then(result => {
             if(result.status === 200){
-                let newComments = comments.filter(c => c.commentId != commentId);
+                let newComments = comments.filter(c => c.commentId !== commentId);
                 setComments(newComments);
             }
         })
