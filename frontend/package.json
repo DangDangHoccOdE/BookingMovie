@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "redux-devtools-extension": "^2.13.9",
     "@reduxjs/toolkit": "^2.5.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "cleave.js": "^1.6.0",
@@ -18,8 +22,8 @@
     "react-toastify": "^11.0.3",
     "swiper": "^11.2.4",
     "web-vitals": "^4.2.4",
-    "yub": "^0.11.1",
-    "yup": "^1.6.1"
+    "yup": "^1.6.1",
+    "redux": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

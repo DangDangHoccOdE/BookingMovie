@@ -3,7 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import DetailPage from "../pages/DetailPage";
 import ProtectedRoute from "../utils/utilPages/ProtectedRoute";
-import ErrorPage from "../utils/utilPages/CustomCheckBox";
+import ErrorPage from "../utils/utilPages/ErrorPage";
 import AddMoviePage from "../pages/admin/AddMoviePage";
 import React from "react";
 import AddActorsAndCityToMovie from "../pages/admin/AddActorsAndCityToMovie";

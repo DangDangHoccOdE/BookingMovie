@@ -32,8 +32,8 @@ export default function MainPage(){
                 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -68,12 +68,12 @@ export default function MainPage(){
 
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type={"button"} data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden={"true"}></span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Trước đó</span>
                     </button>
-                    <button className="carousel-control-next" type={"button"} data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden={"true"}></span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Tiếp theo</span>
                     </button>
                 </div>
@@ -83,7 +83,7 @@ export default function MainPage(){
                 <div className="d-flex justify-content-center">
                     <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
-                            <button className="nav-link active" id="pills-home-tab" dâata-bs-toggle="pill"
+                            <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                     data-bs-target="#pill-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"
                                     onClick={() => {
                                         getMovies(false)
@@ -92,7 +92,7 @@ export default function MainPage(){
                         </li>
                         <li className="nav-item" role="presentation">
                             <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-profile" type={"button"} role={"tab"}
+                                    data-bs-target="#pills-profile" type="button" role={"tab"}
                                     aria-controls="pills-profile" aria-selected="false" onClick={() => getMovies(true)}>
                                 Sắp chiếu
                             </button>
