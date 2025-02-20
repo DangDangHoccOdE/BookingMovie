@@ -11,11 +11,6 @@ export default function LoginModal(){
 
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        console.log("LoginModal xuất hiện:", document.getElementById("loginModal"));
-    }, []);
-
-
     function login(loginDto){
         dispatch(removeUserFromState())
 

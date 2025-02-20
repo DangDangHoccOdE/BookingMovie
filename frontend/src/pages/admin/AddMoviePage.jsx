@@ -83,27 +83,27 @@ export default function AddMoviePage(){
                     <Form>
                         <div className='form-floating mb-3'>
                             <CustomTextInput type="text" name='movieName' class='form-control' id='floatingInput' placeholder={"Tên phim"}/>
-                            <label for='floatingInput'>Tên film</label>
+                            <label form='floatingInput'>Tên film</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                             <CustomTextArea name='description' class="form-control" id="floatingPassword" placeholder="Tóm tắt" />
-                            <label for="floatingPassword">Tóm tắt phim</label>
+                            <label form="floatingPassword">Tóm tắt phim</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                             <CustomTextInput name='duration' type="number" class="form-control" id="duration" placeholder="Thời lượng" />
-                            <label for="duration">Thời lượng phim</label>
+                            <label form="duration">Thời lượng phim</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                             <CustomTextInput name='releaseDate' type="date" class="form-control" id="releaseDate" placeholder="Ngày khởi chiếu" />
-                            <label for="releaseDate">Ngày khởi chiếu</label>
+                            <label form="releaseDate">Ngày khởi chiếu</label>
                         </div>
 
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                             <CustomTextInput name='trailerUrl' type="text" class="form-control" id="trailerUrl" placeholder="URL trailer" />
-                            <label for="trailerUrl">URL trailer</label>
+                            <label form="trailerUrl">URL trailer</label>
                         </div>
 
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                                 <CustomSelect
                                     id="categoryId"
                                     className="form-select form-select-lg mb-3"
@@ -112,9 +112,9 @@ export default function AddMoviePage(){
                                         {key: category?.categoryId, text: category?.categoryName, value: category?.categoryName}
                                     ))}
                                 />
-                                <label for="categoryId">Thể loại</label>
+                                <label form="categoryId">Thể loại</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                             <CustomSelect
                                     id="directorId"
                                     className="form-select form-select-lg mb-3"
@@ -123,18 +123,18 @@ export default function AddMoviePage(){
                                         {key: director?.directorId, text: director?.directorName, value: director?.directorName}
                                     ))}
                                 />
-                            <label for="directorId">Đạo diễn</label>
+                            <label form="directorId">Đạo diễn</label>
                         </div>
 
                             <p>Nếu đạo diễn không có trong danh sách trên, vui lòng nhập vào đây.</p>
-                            <div class="form-floating mb-3">
+                            <div className="form-floating mb-3">
                                 <CustomTextInput name='directorName' type="text" class="form-control" id="directorName" placeholder="Tên đạo diễn" />
-                                <label for="directorName">Tên đạo diễn</label>
+                                <label form="directorName">Tên đạo diễn</label>
                             </div>
 
-                            <div class="form-check mb-3 text-start">
+                            <div className="form-check mb-3 text-start">
                                 <CustomCheckBox name="isInVision" class="form-check-input" type="checkbox" id="isInVision" />
-                                <label class="form-check-label" for="isInVision">
+                                <label className="form-check-label" form="isInVision">
                                     Phim đang chiếu rạp?
                                 </label>
                             </div>

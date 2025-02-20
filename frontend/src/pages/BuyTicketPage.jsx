@@ -150,7 +150,7 @@ export default function BuyTicketPage(){
                                                             <div className='col-sm-4 py-2'>
                                                                 <button className='btn btn-dark' onClick={() =>
                                                                     setAdultTicketNumber(adultTicketNumber + 1)}>
-                                                                    <i class="fa-solid fa-plus"></i>
+                                                                    <i className="fa-solid fa-plus"></i>
                                                                 </button>
                                                             </div>
                                                         </div>

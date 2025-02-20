@@ -34,7 +34,7 @@ export default function RegisterModal(){
 
     return (
         <div>
-            <div className='modal-fade' id='registerModal' tabIndex='-1' aria-labelledby='registerModalLabel' aria-hidden='true'>
+            <div className='modal fade' id='registerModal' tabIndex='-1' aria-labelledby='registerModalLabel' aria-hidden='true'>
                 <div className='modal-dialog modal-dialog-centered'>
                     <div className='modal-content'>
                         <div className='modal-header login-modal-header'>
@@ -61,7 +61,7 @@ export default function RegisterModal(){
                                     <div className="form-floating mb-3">
                                         <CustomTextInput type="tel" name="phone" className="form-control" id="phone"
                                                          placeholder='Telephone'
-                                                         pattern="[0]{1} [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
+                                                         pattern="0\d{9}"
                                                          required/>
                                         <label htmlFor="phone">Telephone - 0 5** *** ** **</label>
                                     </div>

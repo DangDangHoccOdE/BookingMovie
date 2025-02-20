@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddd0a86-f52c-48d8-b761-5ae00e5be15e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d3dc1de-9213-4f85-be9f-d614b01ebbea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3d3dc1de-9213-4f85-be9f-d614b01ebbea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d3dc1de-9213-4f85-be9f-d614b01ebbea/storage_v2/_src_/database/booking_movie.ykPQsQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3d3dc1de-9213-4f85-be9f-d614b01ebbea/storage_v2/_src_/database/booking_movie.ykPQsQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a8c841d6-ce1b-4c05-a39d-ea200091588b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a8c841d6-ce1b-4c05-a39d-ea200091588b/storage_v2/_src_/database/booking_movie.ykPQsQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a8c841d6-ce1b-4c05-a39d-ea200091588b/storage_v2/_src_/database/booking_movie.ykPQsQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9d2cce6-e6e5-4ad1-9359-dab670d7ef7a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9d2cce6-e6e5-4ad1-9359-dab670d7ef7a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9d2cce6-e6e5-4ad1-9359-dab670d7ef7a/storage_v2/_src_/database/user_service.QV4z0Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9d2cce6-e6e5-4ad1-9359-dab670d7ef7a/storage_v2/_src_/database/user_service.QV4z0Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layout/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layout/LoggedOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/LoggedOut.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layout/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/RegisterModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterModal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/utilPages/CustomCheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/utilPages/ErrorPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +216,7 @@
       <workItem from="1739717529464" duration="377000" />
       <workItem from="1739756559148" duration="9213000" />
       <workItem from="1739928699173" duration="10330000" />
+      <workItem from="1740015218054" duration="3179000" />
     </task>
     <servers />
   </component>
